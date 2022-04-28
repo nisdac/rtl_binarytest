@@ -17,12 +17,12 @@ index 706d9437..bccf3ebf 100755
      },
 -
 +    "time": {
-+        "device_type": "sensor",
-+        "object_suffix": "UTC",
++        "device_type": "binary_sensor",
++        "object_suffix": "reed_open",
 +        "config": {
-+            "device_class": "timestamp",
-+            "name": "Timestamp",
-+            "icon": "mdi:clock-in"
++            "device_class": "opening",
++            "payload_on": "1",
++            "payload_off": "0"
 +        }
 +    },
      "battery_ok": {
