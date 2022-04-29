@@ -320,11 +320,11 @@ mappings = {
         }
     },
 
-    "alarm": {
+    "reed_open": {
         "device_type": "binary_sensor",
-        "object_suffix": "alarm",
+        "object_suffix": "reed_open",
         "config": {
-            "device_class": "safety",
+            "device_class": "opening",
             "force_update": "true",
             "payload_on": "1",
             "payload_off": "0"
