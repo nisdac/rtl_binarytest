@@ -16,7 +16,7 @@ index 706d9437..bccf3ebf 100755
          }
      },
 -
-+    "time": {
++    "reed_open": {
 +        "device_type": "binary_sensor",
 +        "object_suffix": "reed_open",
 +        "config": {
